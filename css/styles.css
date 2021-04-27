@@ -21,7 +21,7 @@ h3{
     font-family: 'Abel', sans-serif;
     font-size: 1.5rem;
     color: #11999E;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 a{
     color: #11999E;
@@ -42,31 +42,38 @@ hr{
 .topdiv{
     background-color: #EAF6F6;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .top-cloud-img{
     position:relative;
     /* padding-left: 400px; */
     left: 400px;
 }
-
+.flowers{
+    height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    max-height: 350px;
+}
 .bottom-cloud-img{
     position:absolute;
     left: 200px;
+    top:200px;
 }
 .skill-row{
     width: 50%;
     margin: 50px auto;
     line-height: 2;
 }
+.skill{
+    margin: auto;
+}
 .code{
-    float: left;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     width: 20%;
 }
 .pilates{
-    float: right;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     width: 20%;
 }
 .profile{
